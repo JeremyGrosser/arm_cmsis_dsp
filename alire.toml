@@ -1,0 +1,10 @@
+name = "arm_cmsis_dsp"
+description = "ARM CMSIS DSP library"
+version = "5.0.0"
+licenses = "Apache-2.0"
+
+authors = ["Arm Limited"]
+maintainers = ["Jeremy Grosser <jeremy@synack.me>"]
+maintainers-logins = ["JeremyGrosser"]
+
+project-files = ["arm_cmsis_dsp.gpr"]
