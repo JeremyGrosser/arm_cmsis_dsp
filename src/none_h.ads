@@ -19,27 +19,27 @@ package none_h is
    --    a -= (q31_t) (((q63_t) x * y) >> 32)
    --  arg-macro: procedure mult_32x32_keep32 (a, x, y)
    --    a := (q31_t) (((q63_t) x * y ) >> 32)
-   function clip_q63_to_q31 (x : arm_math_types_h.q63_t) return arm_math_types_h.q31_t  -- DSP/Include/dsp/none.h:136
+   function clip_q63_to_q31 (x : arm_math_types_h.q63_t) return arm_math_types_h.q31_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/none.h:136
    with Import => True, 
         Convention => C, 
         External_Name => "clip_q63_to_q31";
 
-   function clip_q63_to_q15 (x : arm_math_types_h.q63_t) return arm_math_types_h.q15_t  -- DSP/Include/dsp/none.h:146
+   function clip_q63_to_q15 (x : arm_math_types_h.q63_t) return arm_math_types_h.q15_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/none.h:146
    with Import => True, 
         Convention => C, 
         External_Name => "clip_q63_to_q15";
 
-   function clip_q31_to_q7 (x : arm_math_types_h.q31_t) return arm_math_types_h.q7_t  -- DSP/Include/dsp/none.h:156
+   function clip_q31_to_q7 (x : arm_math_types_h.q31_t) return arm_math_types_h.q7_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/none.h:156
    with Import => True, 
         Convention => C, 
         External_Name => "clip_q31_to_q7";
 
-   function clip_q31_to_q15 (x : arm_math_types_h.q31_t) return arm_math_types_h.q15_t  -- DSP/Include/dsp/none.h:166
+   function clip_q31_to_q15 (x : arm_math_types_h.q31_t) return arm_math_types_h.q15_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/none.h:166
    with Import => True, 
         Convention => C, 
         External_Name => "clip_q31_to_q15";
 
-   function mult32x64 (x : arm_math_types_h.q63_t; y : arm_math_types_h.q31_t) return arm_math_types_h.q63_t  -- DSP/Include/dsp/none.h:176
+   function mult32x64 (x : arm_math_types_h.q63_t; y : arm_math_types_h.q31_t) return arm_math_types_h.q63_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/none.h:176
    with Import => True, 
         Convention => C, 
         External_Name => "mult32x64";

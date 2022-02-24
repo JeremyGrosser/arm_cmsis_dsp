@@ -1,8 +1,8 @@
-with "config/arm_cmsis_config.gpr";
+with "config/arm_cmsis_dsp_config.gpr";
 project ARM_CMSIS_DSP is
 
    for Library_Name use "ARM_CMSIS_DSP";
-   for Library_Version use Project'Library_Name & ".so." & ARM_CMSIS_Config.Crate_Version;
+   for Library_Version use Project'Library_Name & ".so." & ARM_CMSIS_DSP_Config.Crate_Version;
 
    for Languages use ("Ada", "C");
    for Source_Dirs use (

@@ -11,7 +11,7 @@ package distance_functions_h is
    function arm_euclidean_distance_f32
      (pA : access arm_math_types_h.float32_t;
       pB : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:70
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:70
    with Import => True, 
         Convention => C, 
         External_Name => "arm_euclidean_distance_f32";
@@ -19,7 +19,7 @@ package distance_functions_h is
    function arm_euclidean_distance_f64
      (pA : access arm_math_types_h.float64_t;
       pB : access arm_math_types_h.float64_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float64_t  -- DSP/Include/dsp/distance_functions.h:81
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float64_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:81
    with Import => True, 
         Convention => C, 
         External_Name => "arm_euclidean_distance_f64";
@@ -27,7 +27,7 @@ package distance_functions_h is
    function arm_braycurtis_distance_f32
      (pA : access arm_math_types_h.float32_t;
       pB : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:91
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:91
    with Import => True, 
         Convention => C, 
         External_Name => "arm_braycurtis_distance_f32";
@@ -35,7 +35,7 @@ package distance_functions_h is
    function arm_canberra_distance_f32
      (pA : access arm_math_types_h.float32_t;
       pB : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:106
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:106
    with Import => True, 
         Convention => C, 
         External_Name => "arm_canberra_distance_f32";
@@ -43,7 +43,7 @@ package distance_functions_h is
    function arm_chebyshev_distance_f32
      (pA : access arm_math_types_h.float32_t;
       pB : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:117
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:117
    with Import => True, 
         Convention => C, 
         External_Name => "arm_chebyshev_distance_f32";
@@ -51,7 +51,7 @@ package distance_functions_h is
    function arm_chebyshev_distance_f64
      (pA : access arm_math_types_h.float64_t;
       pB : access arm_math_types_h.float64_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float64_t  -- DSP/Include/dsp/distance_functions.h:128
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float64_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:128
    with Import => True, 
         Convention => C, 
         External_Name => "arm_chebyshev_distance_f64";
@@ -59,7 +59,7 @@ package distance_functions_h is
    function arm_cityblock_distance_f32
      (pA : access arm_math_types_h.float32_t;
       pB : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:139
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:139
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cityblock_distance_f32";
@@ -67,7 +67,7 @@ package distance_functions_h is
    function arm_cityblock_distance_f64
      (pA : access arm_math_types_h.float64_t;
       pB : access arm_math_types_h.float64_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float64_t  -- DSP/Include/dsp/distance_functions.h:149
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float64_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:149
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cityblock_distance_f64";
@@ -75,7 +75,7 @@ package distance_functions_h is
    function arm_correlation_distance_f32
      (pA : access arm_math_types_h.float32_t;
       pB : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:162
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:162
    with Import => True, 
         Convention => C, 
         External_Name => "arm_correlation_distance_f32";
@@ -83,7 +83,7 @@ package distance_functions_h is
    function arm_cosine_distance_f32
      (pA : access arm_math_types_h.float32_t;
       pB : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:174
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:174
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cosine_distance_f32";
@@ -91,7 +91,7 @@ package distance_functions_h is
    function arm_cosine_distance_f64
      (pA : access arm_math_types_h.float64_t;
       pB : access arm_math_types_h.float64_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float64_t  -- DSP/Include/dsp/distance_functions.h:186
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float64_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:186
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cosine_distance_f64";
@@ -99,7 +99,7 @@ package distance_functions_h is
    function arm_jensenshannon_distance_f32
      (pA : access arm_math_types_h.float32_t;
       pB : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:208
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:208
    with Import => True, 
         Convention => C, 
         External_Name => "arm_jensenshannon_distance_f32";
@@ -108,7 +108,7 @@ package distance_functions_h is
      (pA : access arm_math_types_h.float32_t;
       pB : access arm_math_types_h.float32_t;
       order : sys_ustdint_h.int32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:223
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:223
    with Import => True, 
         Convention => C, 
         External_Name => "arm_minkowski_distance_f32";
@@ -116,7 +116,7 @@ package distance_functions_h is
    function arm_dice_distance
      (pA : access sys_ustdint_h.uint32_t;
       pB : access sys_ustdint_h.uint32_t;
-      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:237
+      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:237
    with Import => True, 
         Convention => C, 
         External_Name => "arm_dice_distance";
@@ -124,7 +124,7 @@ package distance_functions_h is
    function arm_hamming_distance
      (pA : access sys_ustdint_h.uint32_t;
       pB : access sys_ustdint_h.uint32_t;
-      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:249
+      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:249
    with Import => True, 
         Convention => C, 
         External_Name => "arm_hamming_distance";
@@ -132,7 +132,7 @@ package distance_functions_h is
    function arm_jaccard_distance
      (pA : access sys_ustdint_h.uint32_t;
       pB : access sys_ustdint_h.uint32_t;
-      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:261
+      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:261
    with Import => True, 
         Convention => C, 
         External_Name => "arm_jaccard_distance";
@@ -140,7 +140,7 @@ package distance_functions_h is
    function arm_kulsinski_distance
      (pA : access sys_ustdint_h.uint32_t;
       pB : access sys_ustdint_h.uint32_t;
-      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:273
+      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:273
    with Import => True, 
         Convention => C, 
         External_Name => "arm_kulsinski_distance";
@@ -148,7 +148,7 @@ package distance_functions_h is
    function arm_rogerstanimoto_distance
      (pA : access sys_ustdint_h.uint32_t;
       pB : access sys_ustdint_h.uint32_t;
-      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:285
+      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:285
    with Import => True, 
         Convention => C, 
         External_Name => "arm_rogerstanimoto_distance";
@@ -156,7 +156,7 @@ package distance_functions_h is
    function arm_russellrao_distance
      (pA : access sys_ustdint_h.uint32_t;
       pB : access sys_ustdint_h.uint32_t;
-      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:297
+      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:297
    with Import => True, 
         Convention => C, 
         External_Name => "arm_russellrao_distance";
@@ -164,7 +164,7 @@ package distance_functions_h is
    function arm_sokalmichener_distance
      (pA : access sys_ustdint_h.uint32_t;
       pB : access sys_ustdint_h.uint32_t;
-      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:309
+      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:309
    with Import => True, 
         Convention => C, 
         External_Name => "arm_sokalmichener_distance";
@@ -172,7 +172,7 @@ package distance_functions_h is
    function arm_sokalsneath_distance
      (pA : access sys_ustdint_h.uint32_t;
       pB : access sys_ustdint_h.uint32_t;
-      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:321
+      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:321
    with Import => True, 
         Convention => C, 
         External_Name => "arm_sokalsneath_distance";
@@ -180,7 +180,7 @@ package distance_functions_h is
    function arm_yule_distance
      (pA : access sys_ustdint_h.uint32_t;
       pB : access sys_ustdint_h.uint32_t;
-      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/distance_functions.h:333
+      numberOfBools : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/distance_functions.h:333
    with Import => True, 
         Convention => C, 
         External_Name => "arm_yule_distance";

@@ -11,6 +11,6 @@ package svm_defines_h is
       ARM_ML_KERNEL_POLYNOMIAL,
       ARM_ML_KERNEL_RBF,
       ARM_ML_KERNEL_SIGMOID)
-   with Convention => C;  -- DSP/Include/dsp/svm_defines.h:44
+   with Convention => C;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/svm_defines.h:44
 
 end svm_defines_h;

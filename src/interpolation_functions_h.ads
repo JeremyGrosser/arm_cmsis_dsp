@@ -9,60 +9,60 @@ with arm_math_types_h;
 package interpolation_functions_h is
 
    type arm_linear_interp_instance_f32 is record
-      nValues : aliased sys_ustdint_h.uint32_t;  -- DSP/Include/dsp/interpolation_functions.h:55
-      x1 : aliased arm_math_types_h.float32_t;  -- DSP/Include/dsp/interpolation_functions.h:56
-      xSpacing : aliased arm_math_types_h.float32_t;  -- DSP/Include/dsp/interpolation_functions.h:57
-      pYData : access arm_math_types_h.float32_t;  -- DSP/Include/dsp/interpolation_functions.h:58
+      nValues : aliased sys_ustdint_h.uint32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:55
+      x1 : aliased arm_math_types_h.float32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:56
+      xSpacing : aliased arm_math_types_h.float32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:57
+      pYData : access arm_math_types_h.float32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:58
    end record
-   with Convention => C_Pass_By_Copy;  -- DSP/Include/dsp/interpolation_functions.h:59
+   with Convention => C_Pass_By_Copy;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:59
 
    type arm_bilinear_interp_instance_f32 is record
-      numRows : aliased sys_ustdint_h.uint16_t;  -- DSP/Include/dsp/interpolation_functions.h:66
-      numCols : aliased sys_ustdint_h.uint16_t;  -- DSP/Include/dsp/interpolation_functions.h:67
-      pData : access arm_math_types_h.float32_t;  -- DSP/Include/dsp/interpolation_functions.h:68
+      numRows : aliased sys_ustdint_h.uint16_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:66
+      numCols : aliased sys_ustdint_h.uint16_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:67
+      pData : access arm_math_types_h.float32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:68
    end record
-   with Convention => C_Pass_By_Copy;  -- DSP/Include/dsp/interpolation_functions.h:69
+   with Convention => C_Pass_By_Copy;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:69
 
    type arm_bilinear_interp_instance_q31 is record
-      numRows : aliased sys_ustdint_h.uint16_t;  -- DSP/Include/dsp/interpolation_functions.h:76
-      numCols : aliased sys_ustdint_h.uint16_t;  -- DSP/Include/dsp/interpolation_functions.h:77
-      pData : access arm_math_types_h.q31_t;  -- DSP/Include/dsp/interpolation_functions.h:78
+      numRows : aliased sys_ustdint_h.uint16_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:76
+      numCols : aliased sys_ustdint_h.uint16_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:77
+      pData : access arm_math_types_h.q31_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:78
    end record
-   with Convention => C_Pass_By_Copy;  -- DSP/Include/dsp/interpolation_functions.h:79
+   with Convention => C_Pass_By_Copy;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:79
 
    type arm_bilinear_interp_instance_q15 is record
-      numRows : aliased sys_ustdint_h.uint16_t;  -- DSP/Include/dsp/interpolation_functions.h:86
-      numCols : aliased sys_ustdint_h.uint16_t;  -- DSP/Include/dsp/interpolation_functions.h:87
-      pData : access arm_math_types_h.q15_t;  -- DSP/Include/dsp/interpolation_functions.h:88
+      numRows : aliased sys_ustdint_h.uint16_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:86
+      numCols : aliased sys_ustdint_h.uint16_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:87
+      pData : access arm_math_types_h.q15_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:88
    end record
-   with Convention => C_Pass_By_Copy;  -- DSP/Include/dsp/interpolation_functions.h:89
+   with Convention => C_Pass_By_Copy;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:89
 
    type arm_bilinear_interp_instance_q7 is record
-      numRows : aliased sys_ustdint_h.uint16_t;  -- DSP/Include/dsp/interpolation_functions.h:96
-      numCols : aliased sys_ustdint_h.uint16_t;  -- DSP/Include/dsp/interpolation_functions.h:97
-      pData : access arm_math_types_h.q7_t;  -- DSP/Include/dsp/interpolation_functions.h:98
+      numRows : aliased sys_ustdint_h.uint16_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:96
+      numCols : aliased sys_ustdint_h.uint16_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:97
+      pData : access arm_math_types_h.q7_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:98
    end record
-   with Convention => C_Pass_By_Copy;  -- DSP/Include/dsp/interpolation_functions.h:99
+   with Convention => C_Pass_By_Copy;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:99
 
    type arm_spline_type is 
      (ARM_SPLINE_NATURAL,
       ARM_SPLINE_PARABOLIC_RUNOUT)
-   with Convention => C;  -- DSP/Include/dsp/interpolation_functions.h:109
+   with Convention => C;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:109
 
    type arm_spline_instance_f32 is record
-      c_type : aliased arm_spline_type;  -- DSP/Include/dsp/interpolation_functions.h:116
-      x : access arm_math_types_h.float32_t;  -- DSP/Include/dsp/interpolation_functions.h:117
-      y : access arm_math_types_h.float32_t;  -- DSP/Include/dsp/interpolation_functions.h:118
-      n_x : aliased sys_ustdint_h.uint32_t;  -- DSP/Include/dsp/interpolation_functions.h:119
-      coeffs : access arm_math_types_h.float32_t;  -- DSP/Include/dsp/interpolation_functions.h:120
+      c_type : aliased arm_spline_type;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:116
+      x : access arm_math_types_h.float32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:117
+      y : access arm_math_types_h.float32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:118
+      n_x : aliased sys_ustdint_h.uint32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:119
+      coeffs : access arm_math_types_h.float32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:120
    end record
-   with Convention => C_Pass_By_Copy;  -- DSP/Include/dsp/interpolation_functions.h:121
+   with Convention => C_Pass_By_Copy;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:121
 
    procedure arm_spline_f32
      (S : access arm_spline_instance_f32;
       xq : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/interpolation_functions.h:143
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:143
    with Import => True, 
         Convention => C, 
         External_Name => "arm_spline_f32";
@@ -74,12 +74,12 @@ package interpolation_functions_h is
       y : access arm_math_types_h.float32_t;
       n : sys_ustdint_h.uint32_t;
       coeffs : access arm_math_types_h.float32_t;
-      tempBuffer : access arm_math_types_h.float32_t)  -- DSP/Include/dsp/interpolation_functions.h:159
+      tempBuffer : access arm_math_types_h.float32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:159
    with Import => True, 
         Convention => C, 
         External_Name => "arm_spline_init_f32";
 
-   function arm_linear_interp_f32 (S : access arm_linear_interp_instance_f32; x : arm_math_types_h.float32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/interpolation_functions.h:187
+   function arm_linear_interp_f32 (S : access arm_linear_interp_instance_f32; x : arm_math_types_h.float32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:187
    with Import => True, 
         Convention => C, 
         External_Name => "arm_linear_interp_f32";
@@ -87,7 +87,7 @@ package interpolation_functions_h is
    function arm_linear_interp_q31
      (pYData : access arm_math_types_h.q31_t;
       x : arm_math_types_h.q31_t;
-      nValues : sys_ustdint_h.uint32_t) return arm_math_types_h.q31_t  -- DSP/Include/dsp/interpolation_functions.h:204
+      nValues : sys_ustdint_h.uint32_t) return arm_math_types_h.q31_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:204
    with Import => True, 
         Convention => C, 
         External_Name => "arm_linear_interp_q31";
@@ -95,7 +95,7 @@ package interpolation_functions_h is
    function arm_linear_interp_q15
      (pYData : access arm_math_types_h.q15_t;
       x : arm_math_types_h.q31_t;
-      nValues : sys_ustdint_h.uint32_t) return arm_math_types_h.q15_t  -- DSP/Include/dsp/interpolation_functions.h:222
+      nValues : sys_ustdint_h.uint32_t) return arm_math_types_h.q15_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:222
    with Import => True, 
         Convention => C, 
         External_Name => "arm_linear_interp_q15";
@@ -103,7 +103,7 @@ package interpolation_functions_h is
    function arm_linear_interp_q7
      (pYData : access arm_math_types_h.q7_t;
       x : arm_math_types_h.q31_t;
-      nValues : sys_ustdint_h.uint32_t) return arm_math_types_h.q7_t  -- DSP/Include/dsp/interpolation_functions.h:239
+      nValues : sys_ustdint_h.uint32_t) return arm_math_types_h.q7_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:239
    with Import => True, 
         Convention => C, 
         External_Name => "arm_linear_interp_q7";
@@ -111,7 +111,7 @@ package interpolation_functions_h is
    function arm_bilinear_interp_f32
      (S : access constant arm_bilinear_interp_instance_f32;
       X : arm_math_types_h.float32_t;
-      Y : arm_math_types_h.float32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/interpolation_functions.h:268
+      Y : arm_math_types_h.float32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:268
    with Import => True, 
         Convention => C, 
         External_Name => "arm_bilinear_interp_f32";
@@ -119,7 +119,7 @@ package interpolation_functions_h is
    function arm_bilinear_interp_q31
      (S : access arm_bilinear_interp_instance_q31;
       X : arm_math_types_h.q31_t;
-      Y : arm_math_types_h.q31_t) return arm_math_types_h.q31_t  -- DSP/Include/dsp/interpolation_functions.h:280
+      Y : arm_math_types_h.q31_t) return arm_math_types_h.q31_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:280
    with Import => True, 
         Convention => C, 
         External_Name => "arm_bilinear_interp_q31";
@@ -127,7 +127,7 @@ package interpolation_functions_h is
    function arm_bilinear_interp_q15
      (S : access arm_bilinear_interp_instance_q15;
       X : arm_math_types_h.q31_t;
-      Y : arm_math_types_h.q31_t) return arm_math_types_h.q15_t  -- DSP/Include/dsp/interpolation_functions.h:293
+      Y : arm_math_types_h.q31_t) return arm_math_types_h.q15_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:293
    with Import => True, 
         Convention => C, 
         External_Name => "arm_bilinear_interp_q15";
@@ -135,7 +135,7 @@ package interpolation_functions_h is
    function arm_bilinear_interp_q7
      (S : access arm_bilinear_interp_instance_q7;
       X : arm_math_types_h.q31_t;
-      Y : arm_math_types_h.q31_t) return arm_math_types_h.q7_t  -- DSP/Include/dsp/interpolation_functions.h:305
+      Y : arm_math_types_h.q31_t) return arm_math_types_h.q7_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/interpolation_functions.h:305
    with Import => True, 
         Convention => C, 
         External_Name => "arm_bilinear_interp_q7";

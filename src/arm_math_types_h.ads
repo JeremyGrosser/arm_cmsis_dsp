@@ -28,19 +28,19 @@ package arm_math_types_h is
    --  unsupported macro: Q31_ABSMIN ((q31_t)0)
    --  unsupported macro: Q15_ABSMIN ((q15_t)0)
    --  unsupported macro: Q7_ABSMIN ((q7_t)0)
-   CMPLX_DIM : constant := 2;  --  DSP/Include/arm_math_types.h:589
+   CMPLX_DIM : constant := 2;  --  ../CMSIS_5/CMSIS/DSP/Include/arm_math_types.h:589
 
-   subtype q7_t is sys_ustdint_h.int8_t;  -- DSP/Include/arm_math_types.h:278
+   subtype q7_t is sys_ustdint_h.int8_t;  -- ../CMSIS_5/CMSIS/DSP/Include/arm_math_types.h:278
 
-   subtype q15_t is sys_ustdint_h.int16_t;  -- DSP/Include/arm_math_types.h:283
+   subtype q15_t is sys_ustdint_h.int16_t;  -- ../CMSIS_5/CMSIS/DSP/Include/arm_math_types.h:283
 
-   subtype q31_t is sys_ustdint_h.int32_t;  -- DSP/Include/arm_math_types.h:288
+   subtype q31_t is sys_ustdint_h.int32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/arm_math_types.h:288
 
-   subtype q63_t is sys_ustdint_h.int64_t;  -- DSP/Include/arm_math_types.h:293
+   subtype q63_t is sys_ustdint_h.int64_t;  -- ../CMSIS_5/CMSIS/DSP/Include/arm_math_types.h:293
 
-   subtype float32_t is float;  -- DSP/Include/arm_math_types.h:299
+   subtype float32_t is float;  -- ../CMSIS_5/CMSIS/DSP/Include/arm_math_types.h:299
 
-   subtype float64_t is double;  -- DSP/Include/arm_math_types.h:305
+   subtype float64_t is double;  -- ../CMSIS_5/CMSIS/DSP/Include/arm_math_types.h:305
 
    subtype arm_status is int;
    ARM_MATH_SUCCESS : constant arm_status := 0;
@@ -50,6 +50,6 @@ package arm_math_types_h is
    ARM_MATH_NANINF : constant arm_status := -4;
    ARM_MATH_SINGULAR : constant arm_status := -5;
    ARM_MATH_TEST_FAILURE : constant arm_status := -6;
-   ARM_MATH_DECOMPOSITION_FAILURE : constant arm_status := -7;  -- DSP/Include/arm_math_types.h:605
+   ARM_MATH_DECOMPOSITION_FAILURE : constant arm_status := -7;  -- ../CMSIS_5/CMSIS/DSP/Include/arm_math_types.h:605
 
 end arm_math_types_h;

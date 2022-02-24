@@ -11,7 +11,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_conj_f32
      (pSrc : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.float32_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:58
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:58
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_conj_f32";
@@ -19,7 +19,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_conj_q31
      (pSrc : access arm_math_types_h.q31_t;
       pDst : access arm_math_types_h.q31_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:69
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:69
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_conj_q31";
@@ -27,7 +27,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_conj_q15
      (pSrc : access arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.q15_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:81
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:81
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_conj_q15";
@@ -35,7 +35,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_mag_squared_f32
      (pSrc : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.float32_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:93
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:93
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mag_squared_f32";
@@ -43,7 +43,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_mag_squared_f64
      (pSrc : access arm_math_types_h.float64_t;
       pDst : access arm_math_types_h.float64_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:105
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:105
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mag_squared_f64";
@@ -51,7 +51,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_mag_squared_q31
      (pSrc : access arm_math_types_h.q31_t;
       pDst : access arm_math_types_h.q31_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:117
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:117
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mag_squared_q31";
@@ -59,7 +59,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_mag_squared_q15
      (pSrc : access arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.q15_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:129
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:129
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mag_squared_q15";
@@ -67,7 +67,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_mag_f32
      (pSrc : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.float32_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:141
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:141
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mag_f32";
@@ -75,7 +75,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_mag_f64
      (pSrc : access arm_math_types_h.float64_t;
       pDst : access arm_math_types_h.float64_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:153
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:153
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mag_f64";
@@ -83,7 +83,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_mag_q31
      (pSrc : access arm_math_types_h.q31_t;
       pDst : access arm_math_types_h.q31_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:165
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:165
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mag_q31";
@@ -91,7 +91,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_mag_q15
      (pSrc : access arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.q15_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:177
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:177
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mag_q15";
@@ -99,7 +99,7 @@ package complex_math_functions_h is
    procedure arm_cmplx_mag_fast_q15
      (pSrc : access arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.q15_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:188
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:188
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mag_fast_q15";
@@ -109,7 +109,7 @@ package complex_math_functions_h is
       pSrcB : access arm_math_types_h.q15_t;
       numSamples : sys_ustdint_h.uint32_t;
       realResult : access arm_math_types_h.q31_t;
-      imagResult : access arm_math_types_h.q31_t)  -- DSP/Include/dsp/complex_math_functions.h:202
+      imagResult : access arm_math_types_h.q31_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:202
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_dot_prod_q15";
@@ -119,7 +119,7 @@ package complex_math_functions_h is
       pSrcB : access arm_math_types_h.q31_t;
       numSamples : sys_ustdint_h.uint32_t;
       realResult : access arm_math_types_h.q63_t;
-      imagResult : access arm_math_types_h.q63_t)  -- DSP/Include/dsp/complex_math_functions.h:218
+      imagResult : access arm_math_types_h.q63_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:218
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_dot_prod_q31";
@@ -129,7 +129,7 @@ package complex_math_functions_h is
       pSrcB : access arm_math_types_h.float32_t;
       numSamples : sys_ustdint_h.uint32_t;
       realResult : access arm_math_types_h.float32_t;
-      imagResult : access arm_math_types_h.float32_t)  -- DSP/Include/dsp/complex_math_functions.h:234
+      imagResult : access arm_math_types_h.float32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:234
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_dot_prod_f32";
@@ -138,7 +138,7 @@ package complex_math_functions_h is
      (pSrcCmplx : access arm_math_types_h.q15_t;
       pSrcReal : access arm_math_types_h.q15_t;
       pCmplxDst : access arm_math_types_h.q15_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:249
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:249
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mult_real_q15";
@@ -147,7 +147,7 @@ package complex_math_functions_h is
      (pSrcCmplx : access arm_math_types_h.q31_t;
       pSrcReal : access arm_math_types_h.q31_t;
       pCmplxDst : access arm_math_types_h.q31_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:263
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:263
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mult_real_q31";
@@ -156,7 +156,7 @@ package complex_math_functions_h is
      (pSrcCmplx : access arm_math_types_h.float32_t;
       pSrcReal : access arm_math_types_h.float32_t;
       pCmplxDst : access arm_math_types_h.float32_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:277
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:277
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mult_real_f32";
@@ -165,7 +165,7 @@ package complex_math_functions_h is
      (pSrcA : access arm_math_types_h.q15_t;
       pSrcB : access arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.q15_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:290
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:290
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mult_cmplx_q15";
@@ -174,7 +174,7 @@ package complex_math_functions_h is
      (pSrcA : access arm_math_types_h.q31_t;
       pSrcB : access arm_math_types_h.q31_t;
       pDst : access arm_math_types_h.q31_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:304
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:304
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mult_cmplx_q31";
@@ -183,7 +183,7 @@ package complex_math_functions_h is
      (pSrcA : access arm_math_types_h.float32_t;
       pSrcB : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.float32_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:318
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:318
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mult_cmplx_f32";
@@ -192,7 +192,7 @@ package complex_math_functions_h is
      (pSrcA : access arm_math_types_h.float64_t;
       pSrcB : access arm_math_types_h.float64_t;
       pDst : access arm_math_types_h.float64_t;
-      numSamples : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/complex_math_functions.h:333
+      numSamples : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/complex_math_functions.h:333
    with Import => True, 
         Convention => C, 
         External_Name => "arm_cmplx_mult_cmplx_f64";

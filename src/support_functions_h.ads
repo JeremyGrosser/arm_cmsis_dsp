@@ -11,7 +11,7 @@ package support_functions_h is
    procedure arm_float_to_q31
      (pSrc : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.q31_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:52
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:52
    with Import => True, 
         Convention => C, 
         External_Name => "arm_float_to_q31";
@@ -19,7 +19,7 @@ package support_functions_h is
    procedure arm_float_to_q15
      (pSrc : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.q15_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:64
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:64
    with Import => True, 
         Convention => C, 
         External_Name => "arm_float_to_q15";
@@ -27,7 +27,7 @@ package support_functions_h is
    procedure arm_float_to_q7
      (pSrc : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.q7_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:76
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:76
    with Import => True, 
         Convention => C, 
         External_Name => "arm_float_to_q7";
@@ -35,7 +35,7 @@ package support_functions_h is
    procedure arm_q31_to_float
      (pSrc : access arm_math_types_h.q31_t;
       pDst : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:88
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:88
    with Import => True, 
         Convention => C, 
         External_Name => "arm_q31_to_float";
@@ -43,7 +43,7 @@ package support_functions_h is
    procedure arm_q31_to_q15
      (pSrc : access arm_math_types_h.q31_t;
       pDst : access arm_math_types_h.q15_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:100
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:100
    with Import => True, 
         Convention => C, 
         External_Name => "arm_q31_to_q15";
@@ -51,7 +51,7 @@ package support_functions_h is
    procedure arm_q31_to_q7
      (pSrc : access arm_math_types_h.q31_t;
       pDst : access arm_math_types_h.q7_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:112
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:112
    with Import => True, 
         Convention => C, 
         External_Name => "arm_q31_to_q7";
@@ -59,7 +59,7 @@ package support_functions_h is
    procedure arm_q15_to_float
      (pSrc : access arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:124
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:124
    with Import => True, 
         Convention => C, 
         External_Name => "arm_q15_to_float";
@@ -67,7 +67,7 @@ package support_functions_h is
    procedure arm_q15_to_q31
      (pSrc : access arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.q31_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:136
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:136
    with Import => True, 
         Convention => C, 
         External_Name => "arm_q15_to_q31";
@@ -75,7 +75,7 @@ package support_functions_h is
    procedure arm_q15_to_q7
      (pSrc : access arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.q7_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:148
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:148
    with Import => True, 
         Convention => C, 
         External_Name => "arm_q15_to_q7";
@@ -83,7 +83,7 @@ package support_functions_h is
    procedure arm_q7_to_float
      (pSrc : access arm_math_types_h.q7_t;
       pDst : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:160
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:160
    with Import => True, 
         Convention => C, 
         External_Name => "arm_q7_to_float";
@@ -91,7 +91,7 @@ package support_functions_h is
    procedure arm_q7_to_q31
      (pSrc : access arm_math_types_h.q7_t;
       pDst : access arm_math_types_h.q31_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:172
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:172
    with Import => True, 
         Convention => C, 
         External_Name => "arm_q7_to_q31";
@@ -99,7 +99,7 @@ package support_functions_h is
    procedure arm_q7_to_q15
      (pSrc : access arm_math_types_h.q7_t;
       pDst : access arm_math_types_h.q15_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:184
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:184
    with Import => True, 
         Convention => C, 
         External_Name => "arm_q7_to_q15";
@@ -111,24 +111,24 @@ package support_functions_h is
       ARM_SORT_INSERTION,
       ARM_SORT_QUICK,
       ARM_SORT_SELECTION)
-   with Convention => C;  -- DSP/Include/dsp/support_functions.h:210
+   with Convention => C;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:210
 
    type arm_sort_dir is 
      (ARM_SORT_DESCENDING,
       ARM_SORT_ASCENDING)
-   with Convention => C;  -- DSP/Include/dsp/support_functions.h:221
+   with Convention => C;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:221
 
    type arm_sort_instance_f32 is record
-      alg : aliased arm_sort_alg;  -- DSP/Include/dsp/support_functions.h:228
-      dir : aliased arm_sort_dir;  -- DSP/Include/dsp/support_functions.h:229
+      alg : aliased arm_sort_alg;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:228
+      dir : aliased arm_sort_dir;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:229
    end record
-   with Convention => C_Pass_By_Copy;  -- DSP/Include/dsp/support_functions.h:230
+   with Convention => C_Pass_By_Copy;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:230
 
    procedure arm_sort_f32
      (S : access constant arm_sort_instance_f32;
       pSrc : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:238
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:238
    with Import => True, 
         Convention => C, 
         External_Name => "arm_sort_f32";
@@ -136,22 +136,22 @@ package support_functions_h is
    procedure arm_sort_init_f32
      (S : access arm_sort_instance_f32;
       alg : arm_sort_alg;
-      dir : arm_sort_dir)  -- DSP/Include/dsp/support_functions.h:249
+      dir : arm_sort_dir)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:249
    with Import => True, 
         Convention => C, 
         External_Name => "arm_sort_init_f32";
 
    type arm_merge_sort_instance_f32 is record
-      dir : aliased arm_sort_dir;  -- DSP/Include/dsp/support_functions.h:259
-      buffer : access arm_math_types_h.float32_t;  -- DSP/Include/dsp/support_functions.h:260
+      dir : aliased arm_sort_dir;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:259
+      buffer : access arm_math_types_h.float32_t;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:260
    end record
-   with Convention => C_Pass_By_Copy;  -- DSP/Include/dsp/support_functions.h:261
+   with Convention => C_Pass_By_Copy;  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:261
 
    procedure arm_merge_sort_f32
      (S : access constant arm_merge_sort_instance_f32;
       pSrc : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:269
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:269
    with Import => True, 
         Convention => C, 
         External_Name => "arm_merge_sort_f32";
@@ -159,7 +159,7 @@ package support_functions_h is
    procedure arm_merge_sort_init_f32
      (S : access arm_merge_sort_instance_f32;
       dir : arm_sort_dir;
-      buffer : access arm_math_types_h.float32_t)  -- DSP/Include/dsp/support_functions.h:280
+      buffer : access arm_math_types_h.float32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:280
    with Import => True, 
         Convention => C, 
         External_Name => "arm_merge_sort_init_f32";
@@ -167,7 +167,7 @@ package support_functions_h is
    procedure arm_copy_f32
      (pSrc : access arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:293
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:293
    with Import => True, 
         Convention => C, 
         External_Name => "arm_copy_f32";
@@ -175,7 +175,7 @@ package support_functions_h is
    procedure arm_copy_f64
      (pSrc : access arm_math_types_h.float64_t;
       pDst : access arm_math_types_h.float64_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:306
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:306
    with Import => True, 
         Convention => C, 
         External_Name => "arm_copy_f64";
@@ -183,7 +183,7 @@ package support_functions_h is
    procedure arm_copy_q7
      (pSrc : access arm_math_types_h.q7_t;
       pDst : access arm_math_types_h.q7_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:319
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:319
    with Import => True, 
         Convention => C, 
         External_Name => "arm_copy_q7";
@@ -191,7 +191,7 @@ package support_functions_h is
    procedure arm_copy_q15
      (pSrc : access arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.q15_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:331
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:331
    with Import => True, 
         Convention => C, 
         External_Name => "arm_copy_q15";
@@ -199,7 +199,7 @@ package support_functions_h is
    procedure arm_copy_q31
      (pSrc : access arm_math_types_h.q31_t;
       pDst : access arm_math_types_h.q31_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:343
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:343
    with Import => True, 
         Convention => C, 
         External_Name => "arm_copy_q31";
@@ -207,7 +207,7 @@ package support_functions_h is
    procedure arm_fill_f32
      (value : arm_math_types_h.float32_t;
       pDst : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:355
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:355
    with Import => True, 
         Convention => C, 
         External_Name => "arm_fill_f32";
@@ -215,7 +215,7 @@ package support_functions_h is
    procedure arm_fill_f64
      (value : arm_math_types_h.float64_t;
       pDst : access arm_math_types_h.float64_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:367
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:367
    with Import => True, 
         Convention => C, 
         External_Name => "arm_fill_f64";
@@ -223,7 +223,7 @@ package support_functions_h is
    procedure arm_fill_q7
      (value : arm_math_types_h.q7_t;
       pDst : access arm_math_types_h.q7_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:379
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:379
    with Import => True, 
         Convention => C, 
         External_Name => "arm_fill_q7";
@@ -231,7 +231,7 @@ package support_functions_h is
    procedure arm_fill_q15
      (value : arm_math_types_h.q15_t;
       pDst : access arm_math_types_h.q15_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:391
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:391
    with Import => True, 
         Convention => C, 
         External_Name => "arm_fill_q15";
@@ -239,7 +239,7 @@ package support_functions_h is
    procedure arm_fill_q31
      (value : arm_math_types_h.q31_t;
       pDst : access arm_math_types_h.q31_t;
-      blockSize : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:403
+      blockSize : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:403
    with Import => True, 
         Convention => C, 
         External_Name => "arm_fill_q31";
@@ -247,7 +247,7 @@ package support_functions_h is
    function arm_weighted_sum_f32
      (c_in : access arm_math_types_h.float32_t;
       weigths : access arm_math_types_h.float32_t;
-      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- DSP/Include/dsp/support_functions.h:424
+      blockSize : sys_ustdint_h.uint32_t) return arm_math_types_h.float32_t  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:424
    with Import => True, 
         Convention => C, 
         External_Name => "arm_weighted_sum_f32";
@@ -257,7 +257,7 @@ package support_functions_h is
       weights : access arm_math_types_h.float32_t;
       c_out : access arm_math_types_h.float32_t;
       nbVectors : sys_ustdint_h.uint32_t;
-      vecDim : sys_ustdint_h.uint32_t)  -- DSP/Include/dsp/support_functions.h:441
+      vecDim : sys_ustdint_h.uint32_t)  -- ../CMSIS_5/CMSIS/DSP/Include/dsp/support_functions.h:441
    with Import => True, 
         Convention => C, 
         External_Name => "arm_barycenter_f32";
