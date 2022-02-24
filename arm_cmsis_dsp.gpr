@@ -101,8 +101,13 @@ project ARM_CMSIS_DSP is
         Contracts_Switches &
         ("-gnatw.X", -- Disable warnings for No_Exception_Propagation
          "-gnatQ",  -- Don't quit. Generate ALI and tree files even if illegalities
+         "-Ofast",
          "-ffunction-sections",
-         "-fdata-sections");
+         "-fdata-sections",
+         "-DARM_FFT_ALLOW_TABLES",
+         "-DARM_ALL_FFT_TABLES",
+         "-DARM_FAST_ALLOW_TABLES",
+         "-DARM_ALL_FAST_TABLES");
    end Compiler;
 
    package Binder is
